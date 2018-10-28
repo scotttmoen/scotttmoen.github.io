@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Resources for Artists, Scientists, and Coders"
 title_separator          : "-"
 name                     : "Scott T Moen"
-description              : "An amazing website."
+description              : "Please have patience, page in progress."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,10 +101,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Scott Moen"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Director of Health Innovation, UTMB"
+  location         : "Galveston, TX"
   email            :
   links:
     - label: "Email"
