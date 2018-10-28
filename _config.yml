@@ -150,7 +150,7 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "scott-moen-phd" #may need to add number from appid
-      
+
 
 
 # Reading Files
@@ -292,3 +292,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: Pages
+    values:
+      layouts: single
+      author_profile: true
