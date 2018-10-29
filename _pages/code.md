@@ -1,6 +1,6 @@
 ---
 layout: "About"
-permalink: /about/
+permalink: /code/
 title: "Code by Tags"
 author_profile: true
 header:
