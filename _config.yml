@@ -301,5 +301,5 @@ defaults:
       path: ""
       type: pages
     values:
-      layouts: single
+      layout: single
       author_profile: true
