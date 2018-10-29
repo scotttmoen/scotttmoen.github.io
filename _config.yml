@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Scott Moen"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/personal_icon.png"
   bio              : "Director of Health Innovation, UTMB"
   location         : "Galveston, TX"
   email            :
