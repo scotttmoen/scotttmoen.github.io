@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Code"
+  - title: "Code by Tags"
     url: /code/
 
   # - title: "About"
