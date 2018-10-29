@@ -1,5 +1,5 @@
 ---
-layout: "About"
+layout: archive
 permalink: /code/
 title: "Code by Tags"
 author_profile: true
