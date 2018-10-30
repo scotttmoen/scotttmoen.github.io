@@ -4,6 +4,10 @@ main:
     url: /about/
   - title: "Code by Tags"
     url: /code/
+  - title: "Art"
+    url: /art/
+  - title: "Science"
+    url: /science/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
