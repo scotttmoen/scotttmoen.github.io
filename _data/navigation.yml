@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Code by Tags"
+  - title: "Code"
     url: /code/
   - title: "Art"
     url: /art/

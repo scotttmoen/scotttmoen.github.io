@@ -7,6 +7,7 @@
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
         {% assign author_src = author.avatar %}
+        {% avatar hubot size=50 %}
       {% else %}
         {% assign author_src = author.avatar | relative_url %}
       {% endif %}
