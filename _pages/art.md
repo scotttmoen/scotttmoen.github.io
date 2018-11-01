@@ -1,8 +1,8 @@
 ---
-layout: archives
+layout: archive
 permalink: /art/
 title: "Art"
 author_profile: true
 header:
-  image: "/images/Header_image"
+  image: "/images/header_image6"
 ---
