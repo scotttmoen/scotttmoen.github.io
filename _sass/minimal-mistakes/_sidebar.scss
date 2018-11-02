@@ -119,7 +119,6 @@
   vertical-align: top;
   width: 36px;
   height: 36px;
-  /*both were 36*/
 
   @include breakpoint($large) {
     display: block;
