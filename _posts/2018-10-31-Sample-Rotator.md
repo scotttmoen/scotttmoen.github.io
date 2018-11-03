@@ -12,4 +12,4 @@ This laser cut file is for rotating laboratory samples on a stepper motor. Tubes
 
 <img src="{{ site.url }}{{site.baseurl }}/images/science/sample_rotator.png" alt="sample rotator for microcentrifuge tubes">
 
-[Google](http://google.com)
+[Download](https://github.com/scotttmoen/Science)
