@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /code/
-title: "Code by Tags"
+title: "Code"
 author_profile: true
 header:
   image: "/images/header_image2.png"
