@@ -308,7 +308,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _commections
+      
+  # _art_photos
   - scope:
       path: ""
       type: art_photos
