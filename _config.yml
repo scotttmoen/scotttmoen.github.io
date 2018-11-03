@@ -311,7 +311,6 @@ defaults:
   # _commections
   - scope:
       path: ""
-        type: art_photos
+      type: art_photos
     values:
         layout: photo
-        
