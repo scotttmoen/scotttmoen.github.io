@@ -308,11 +308,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
+
   # _art_photos
-  - scope:
-      path: ""
-      type: art_photos
-    values:
-      layout: single
-      author_profile: true
+#  - scope:
+#      path: ""
+#      type: art_photos
+#    values:
+#      layout: single
+#s      author_profile: true
