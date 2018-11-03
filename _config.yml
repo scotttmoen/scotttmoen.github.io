@@ -314,4 +314,5 @@ defaults:
       path: ""
       type: art_photos
     values:
-        layout: photo
+      layout: single
+      author_profile: true
