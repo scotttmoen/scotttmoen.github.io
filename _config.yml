@@ -225,11 +225,6 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-#categories
-collections:
-  art_photos:
-    output:true
-
 
 # Plugins (previously gems:)
 plugins:
@@ -308,11 +303,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-  # _art_photos
-#  - scope:
-#      path: ""
-#      type: art_photos
-#    values:
-#      layout: single
-#s      author_profile: true
