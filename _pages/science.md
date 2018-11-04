@@ -9,6 +9,7 @@ header:
 
 
   {% for post in posts %}
+    {% assign posts = group_items[forloop.index0] %}
     {% include archive-single.html %}
   {% endfor %}
 
