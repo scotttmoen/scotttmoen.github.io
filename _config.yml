@@ -303,7 +303,7 @@ defaults:
       layout: single
       author_profile: true
 
-  # _collections
+  # _art_photos
   - scope:
       path: ""
       type: collections
