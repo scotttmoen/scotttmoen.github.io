@@ -7,7 +7,7 @@ header:
 excerpt: "An Excel Spreadsheet for Calculating g Force and RPM"
 ---
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Excel](https://github.com/scotttmoen/scotttmoen.github.io/blob/master/images/Excellogo.png)
 
 # An Excel spreadsheet that calculates g force and RPM given radius
 I made this sheet to calculate forces when I didn't have the necessary rotor information, or when I had made an ad hoc apparatus. I also included the radii of some more common rotors.
