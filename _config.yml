@@ -302,5 +302,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-collections:
-  art_photos
+
+  #collections
+  - scope:
+      path: ""
+      type: collections
+    values:
+      layout: simgle
+      
