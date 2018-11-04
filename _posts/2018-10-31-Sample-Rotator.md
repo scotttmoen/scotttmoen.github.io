@@ -6,7 +6,7 @@ header:
   image: "images/header_image2.png"
 excerpt: "Sample rotator template for microcentrifuge tubes"
 ---
-<img src="{{ site.url }}{{site.baseurl }}/images/SVGlogoo.png" alt="SVG logo" width="50"/>
+<img src="{{ site.url }}{{site.baseurl }}/images/SVGlogo.png" alt="SVG logo" width="50"/>
 This laser cut file is for rotating laboratory samples on a stepper motor. Tubes are held in place by a bar with magnets, making easy extraction. Other indents hold rubber bands to mount larger tubes.
 
 <img src="{{ site.url }}{{site.baseurl }}/images/science/sample_rotator.png" alt="sample rotator for microcentrifuge tubes">
