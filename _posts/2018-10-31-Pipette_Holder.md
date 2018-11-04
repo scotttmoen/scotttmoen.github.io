@@ -7,8 +7,7 @@ header:
 excerpt: "Laser cut pattern for a shelf edge pipette_holder"
 ---
 <img src="{{ site.url }}{{site.baseurl }}/images/SVGlogo.png" alt="SVG logo" width="50"/>
+
 I created this as simple, movable apparatus to hold a set of pipettes that doesn't take up workspace. The design interlocks and doesn't need glue. Adjust the dimensions to fit your shelf and stock thickness.
-
 <img src="{{ site.url }}{{site.baseurl }}/images/science/pipette_holder.png" alt="laser cut pipette holder for shelf edge">
-
 [Download](https://github.com/scotttmoen/Science)
