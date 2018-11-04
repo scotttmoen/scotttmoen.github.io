@@ -309,4 +309,4 @@ defaults:
       type: collections
     values:
       layout: simgle
-      output: Strue
+      output: true
