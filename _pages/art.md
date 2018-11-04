@@ -6,8 +6,8 @@ author_profile: true
 header:
   overlay_image: "/images/header_image6.png"
 ---
-<img src="{{ site.url }}{{site.baseurl }}/images/Excellogo.png" alt="Excel logo" width="50"/>
-art coming soon.
+
+Art coming soon.
 
 
 
