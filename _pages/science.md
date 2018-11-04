@@ -7,7 +7,7 @@ header:
   image: "images/header_image7.png"
 ---
 adsfadsf
-{% include base_path %}
+{% include baseurl %}
 {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
