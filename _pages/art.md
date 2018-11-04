@@ -8,7 +8,7 @@ header:
 ---
 
 
-{% for collect in collections %}
+{% for collect in site.collections %}
   <<div class="collection">
     <h2><<img src="{{collect.image_path}}" alt="{{ collect.title }}"/> /*{{collect.title }}*/h2>{{ collect.content }}
   </div>
