@@ -9,7 +9,7 @@ header:
 
 timestamp
 <div class="grid__wrapper">
-  {% for post in site.portfolio %}
+  {% for collect in collections %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
