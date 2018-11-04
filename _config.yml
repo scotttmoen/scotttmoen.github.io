@@ -280,10 +280,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-#
-collections:
-  art_projects:
-    output:true
 
 # Defaults
 defaults:
