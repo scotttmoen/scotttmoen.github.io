@@ -8,7 +8,7 @@ excerpt: "An Excel Spreadsheet for Calculating g Force and RPM"
 ---
 
 ![alt text][logo]
-[logo]: https://github.com/scotttmoen/scotttmoen.github.io/images/Excellogo.png "Excel file"
+[logo]:https://github.com/scotttmoen/scotttmoen.github.io/images/Excellogo.png "Excel file"
 
 testing
 
