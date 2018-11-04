@@ -7,7 +7,7 @@ header:
   overlay_image: "/images/header_image6.png"
 ---
 
-timestamp
+timestampss
 <div class="grid__wrapper">
   {% for collect in collections %}
     {% include archive-single.html type="grid" %}
