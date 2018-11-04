@@ -4,9 +4,9 @@ permalink: /science/
 title: "Science"
 author_profile: true
 header:
-  image: "images/header_image7.png"
+  overlay_image: "images/header_image7.png"
 ---
-adsfadsf
+
 
 {% include group-by-array collection=site.posts field="tags" %}
 
