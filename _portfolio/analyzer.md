@@ -1,8 +1,8 @@
 ---
 layout: collection
 title: Analyzer
-image_path: "/images/personal_icon.png"
+image_path: "/images/artPhotos/personal_icon.png"
 ---
 
 
-testing purpose
+testing purpose3
