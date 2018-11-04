@@ -303,10 +303,9 @@ defaults:
       layout: single
       author_profile: true
 
-  #collections
+  # collections
   - scope:
       path: ""
       type: collections
     values:
       layout: simgle
-      
