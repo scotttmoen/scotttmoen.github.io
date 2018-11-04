@@ -11,7 +11,7 @@ Art coming soon.
 
 
 
-{% for collect in site.collections %}
+{% for collect in site.art_photos %}
   <div class="collection">
     <h2><img src="{{ site.url }}{{site.baseurl }}/{{collection.image_path}}" alt="{{ collect.title }}" />{{ collect.title }}</h2>
     {{ collect.content }}
