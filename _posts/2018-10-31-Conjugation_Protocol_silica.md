@@ -4,7 +4,7 @@ date: 2018-10-31
 tags: [conjugation protocol, science, antibody, silica]
 header:
   image: "images/header_image2.png"
-excerpt: ""Conjugation protocol with silica and capture antibody"
+excerpt: "Conjugation protocol with silica and capture antibody"
 ---
 
 # An Excel spreadsheet for conjugation of microspheres and antibodies

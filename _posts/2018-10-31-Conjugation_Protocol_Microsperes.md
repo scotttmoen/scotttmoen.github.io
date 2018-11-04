@@ -4,7 +4,7 @@ date: 2018-10-31
 tags: [conjugation protocol, science, antibody, microspheres]
 header:
   image: "images/header_image2.png"
-excerpt: ""Conjugation protocol with antibodies and microspheres"
+excerpt: "Conjugation protocol with antibodies and microspheres"
 ---
 
 # An Excel spreadsheet for conjugation of microspheres and antibodies
