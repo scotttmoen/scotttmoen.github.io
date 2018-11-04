@@ -13,4 +13,3 @@ I created this as simple, movable apparatus to hold a set of pipettes that doesn
 <img src="{{ site.url }}{{site.baseurl }}/images/science/pipette_holder.png" alt="laser cut pipette holder for shelf edge">
 
 [Download](https://github.com/scotttmoen/Science)
-{: .bkggreen}
