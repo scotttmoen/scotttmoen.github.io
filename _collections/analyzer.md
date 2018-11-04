@@ -1,5 +1,5 @@
 ---
-layout: collections
+layout: collection
 title: Analyzer
 image_path: "/images/personal_icon.png"
 ---
