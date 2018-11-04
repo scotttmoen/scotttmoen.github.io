@@ -1,7 +1,7 @@
 ---
 title: "Excel sheet for chemical inventory"
 date: 2018-10-31
-tags: [chemical inventory, science]
+tags: [chemical inventory]
 header:
   image: "images/header_image2.png"
 excerpt: "An Excel spreadsheet for keeping track of chemical inventory"

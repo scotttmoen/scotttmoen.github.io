@@ -1,7 +1,7 @@
 ---
 title: "Laser cut pattern: Sample rotator"
 date: 2018-10-31
-tags: [laser cutter, sample rotator, biological science]
+tags: [laser cutter, sample rotator]
 header:
   image: "images/header_image2.png"
 excerpt: "Sample rotator template for microcentrifuge tubes"

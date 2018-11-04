@@ -1,7 +1,7 @@
 ---
 title: "Laser cut pattern: Pipette holder"
 date: 2018-10-31
-tags: [laser cutter, pipette holder, biological science]
+tags: [laser cutter, pipette holder]
 header:
   image: "images/header_image2.png"
 excerpt: "Laser cut pattern for a shelf edge pipette_holder"
