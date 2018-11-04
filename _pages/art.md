@@ -7,9 +7,9 @@ header:
   overlay_image: "/images/header_image6.png"
 ---
 
-timestampss
-<div class="grid__wrapper">
-  {% for collect in collections %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
+
+{% for collect in collections %}
+  <<div class="collection">
+    <h2><<img src="{{collect.image_path}}" alt="{{ collect.title }}"/> /*{{collect.title }}*/h2>{{ collect.content }}
+  </div>
+{%endfor%}
