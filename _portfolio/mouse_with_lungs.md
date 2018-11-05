@@ -1,5 +1,5 @@
 ---
 layout: collection
-title: Gastrointestinal tract
+title: Mouse with lungs
 image_path: "/images/artPhotos/mouse_with_lungs.png"
 ---
