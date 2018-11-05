@@ -1,8 +1,5 @@
 ---
 layout: collection
-title: Analyzer
+title: Cartoon doctor's office
 image_path: "/images/artPhotos/doctors_office.png"
 ---
-
-
-testing purpose3

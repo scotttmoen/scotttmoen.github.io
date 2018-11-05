@@ -1,8 +1,5 @@
 ---
 layout: collection
-title: Analyzer
+title: Gastrointestinal tract
 image_path: "/images/artPhotos/gi_tract.png"
 ---
-
-
-testing purpose3

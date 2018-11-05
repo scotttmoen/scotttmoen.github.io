@@ -1,8 +1,5 @@
 ---
 layout: collection
-title: Analyzer
+title: Electronic equipment
 image_path: "/images/artPhotos/electronic_equipment.png"
 ---
-
-
-testing purpose3

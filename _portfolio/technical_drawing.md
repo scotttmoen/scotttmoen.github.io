@@ -1,8 +1,5 @@
 ---
 layout: collection
-title: Analyzer
+title: Technical drawing style
 image_path: "/images/artPhotos/technical_drawing.png"
 ---
-
-
-testing purpose3

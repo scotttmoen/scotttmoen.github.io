@@ -1,8 +1,5 @@
 ---
 layout: collection
-title: Analyzer
+title: Hospital bed
 image_path: "/images/artPhotos/mouse_with_lungs.png"
 ---
-
-
-testing purpose3

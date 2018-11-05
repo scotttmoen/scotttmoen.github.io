@@ -1,8 +1,5 @@
 ---
 layout: collection
-title: Analyzer
+title: Heart
 image_path: "/images/artPhotos/heart.png"
 ---
-
-
-testing purpose3

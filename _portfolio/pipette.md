@@ -1,8 +1,5 @@
 ---
 layout: collection
-title: Analyzer
+title: Pipette
 image_path: "/images/artPhotos/pipette.png"
 ---
-
-
-testing purpose3
