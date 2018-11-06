@@ -3,12 +3,11 @@ layout: archive
 permalink: /art/
 title: "Art"
 author_profile: true
-entries_layout: grid
 header:
   overlay_image: "/images/header_image6.png"
 ---
 
-Art coming soon.
+Art coming soon
 
 
 
