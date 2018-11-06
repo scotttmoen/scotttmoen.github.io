@@ -3,6 +3,11 @@ layout: archive
 permalink: /art/
 title: "Art"
 author_profile: true
+<<<<<<< HEAD
+=======
+collection:portfolio
+entries_layout: grid
+>>>>>>> 29222c5b8d6dd49c2e323b19c0325ad9567ebaee
 header:
   overlay_image: "/images/header_image6.png"
 ---
