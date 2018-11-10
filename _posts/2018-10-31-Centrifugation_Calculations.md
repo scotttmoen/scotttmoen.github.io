@@ -1,10 +1,10 @@
 ---
-title: "An Excel Spreadsheet for Calculating g Force and RPM"
+title: "An Excel Spreadsheet for Calculating g Force and RPM."
 date: 2018-10-31
 tags: [centrifugation, g force]
 header:
   image: "images/header_image2.png"
-excerpt: "An Excel spreadsheet that calculates g force and RPM given radius"
+excerpt: "An Excel spreadsheet that calculates g force and RPM given radius. Helps with unknown rotates and bespoke systems."
 ---
 <img src="{{ site.url }}{{site.baseurl }}/images/Excellogo.png" alt="Excel logo" width="50"/>
 
