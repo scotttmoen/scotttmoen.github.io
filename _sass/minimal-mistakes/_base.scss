@@ -14,13 +14,13 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
-
+  $background-color: red;/*testing*/
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
 }
-$background-color: red;/*testing*/
+
 
 h1,
 h2,
