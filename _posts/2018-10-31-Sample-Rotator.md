@@ -1,10 +1,10 @@
 ---
-title: "Laser cut pattern: Sample rotator"
+title: "Laser cut pattern: Sample rotator for mixing biological and chemical samples."
 date: 2018-10-31
 tags: [laser cutter, sample rotator]
 header:
   image: "images/header_image2.png"
-excerpt: "Sample rotator template for microcentrifuge tubes"
+excerpt: "Template for an ergonomic, inexpensive system that rotates microcentrifuge tubes"
 ---
 <img src="{{ site.url }}{{site.baseurl }}/images/SVGlogo.png" alt="SVG logo" width="50"/>
 
