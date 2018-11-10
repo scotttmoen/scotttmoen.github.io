@@ -1,10 +1,10 @@
 ---
-title: "Laser cut pattern: Pipette holder"
+title: "Laser cut pattern: Pipette holder."
 date: 2018-10-31
 tags: [laser cutter, pipette holder]
 header:
   image: "images/header_image2.png"
-excerpt: "Laser cut pattern for a shelf edge pipette_holder"
+excerpt: "Laser cut pattern for a pipette holder that affixes to a horizontal shelf edge, saving valuable workspace."
 ---
 <img src="{{ site.url }}{{site.baseurl }}/images/SVGlogo.png" alt="SVG logo" width="50"/>
 
