@@ -4,7 +4,7 @@ date: 2018-10-31
 tags: [conjugation protocol, antibody, microspheres]
 header:
   image: "images/header_image2.png"
-excerpt: "An Excel spreadsheet for conjugation of microspheres and antibodies. The conjugate is useful for diagnostics.
+excerpt: "An Excel spreadsheet for conjugation of microspheres and antibodies. The conjugate is useful for diagnostics."
 ---
 <img src="{{ site.url }}{{site.baseurl }}/images/Excellogo.png" alt="Excel logo" width="50"/>
 
