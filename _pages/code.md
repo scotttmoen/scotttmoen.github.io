@@ -18,6 +18,6 @@ test5
      class="archive__subtitle"><i style="margin-left: 40px">Tag : {{tag }}</i></h2>
     {% for post in posts %}
         {% include archive-single.html %}
-      {% endfor %}
+    {% endfor %}
   {% endif %}
 {% endfor %}
