@@ -6,7 +6,7 @@ author_profile: true
 header:
   overlay_image: "/images/header_image2.png"
 ---
-Code coming soon.Test
+Code coming soon.Test2
 
 {% include group-by-array collection=site.code_posts field="tags" %}
 
