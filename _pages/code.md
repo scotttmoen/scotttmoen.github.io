@@ -6,10 +6,10 @@ author_profile: true
 header:
   overlay_image: "/images/header_image2.png"
 ---
-Code coming soon.Test7
+Code coming soon.Test8
 
 {% include group-by-array collection=site.posts field="tags" %}
- {% if current_tags contains 'code' %}
+ {% if current_tags contains "code" %}
 {% for tag in group_names %}
 
   {% assign posts = group_items[forloop.index0] %}
