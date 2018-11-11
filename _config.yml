@@ -323,7 +323,7 @@ defaults:
       layout: single
       output: true
 
-  # _posts
+  # _code_posts
   - scope:
       path: ""
       type: posts
