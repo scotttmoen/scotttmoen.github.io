@@ -7,7 +7,7 @@ header:
   overlay_image: "/images/header_image2.png"
 ---
 
-test1
+test2
 
 {% include group-by-array collection=site.posts field="tags" %}
 {%if group_name contains "code" %}
