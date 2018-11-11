@@ -11,7 +11,7 @@ Code coming soon.Test6
 {% include group-by-array collection=site.posts field="tags" %}
  {% if current_tags contains 'code' %}
 {% for tag in group_names %}
-  {group_names | remove "code"}
+
   {% assign posts = group_items[forloop.index0] %}
   <h2 id="{{ tag | slugify }}"
    class="archive__subtitle"><i style="margin-left: 40px">Tag : {{ tag }}</i></h2>
