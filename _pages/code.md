@@ -8,13 +8,14 @@ header:
 ---
 Code coming soon.Test4
 
-{% include group-by-array collection=site.code_posts field="tags" %}
+{% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
-  {% assign code_posts = group_items[forloop.index0] %}
+  {%if tag == "code"%}
+  {% assign posts = group_items[forloop.index0] %}
   <h2 id="{{ tag | slugify }}"
    class="archive__subtitle"><i style="margin-left: 40px">Tag : {{ tag }}</i></h2>
-  {% for post in code_posts %}
+  {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}
 {% endfor %}
