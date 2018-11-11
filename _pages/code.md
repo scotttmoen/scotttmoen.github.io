@@ -6,9 +6,9 @@ author_profile: true
 header:
   overlay_image: "/images/header_image2.png"
 ---
-Code coming soon.
+Code coming soon.Test
 
-{% include group-by-array collection=site.posts field="tags" %}
+{% include group-by-array collection=site.code_posts field="tags" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
