@@ -320,5 +320,5 @@ defaults:
       path: ""
       type: collections
     values:
-      layout: simgle
+      layout: single
       output: true
