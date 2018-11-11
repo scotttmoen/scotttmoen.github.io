@@ -15,8 +15,8 @@ test5
   {%if group_names contains "code" %}
     {% assign posts = group_items[forloop.index0] %}
     <h2 id="{{ tag | slugify }}"
-    class="archive__subtitle"><i style="margin-left: 40px">Tag : {{tag }}</i></h2>
-      {% for post in posts %}
+     class="archive__subtitle"><i style="margin-left: 40px">Tag : {{tag }}</i></h2>
+    {% for post in posts %}
         {% include archive-single.html %}
       {% endfor %}
   {% endif %}
