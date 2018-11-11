@@ -7,7 +7,7 @@ header:
   overlay_image: "/images/header_image2.png"
 ---
 Code coming soon.
-{% include group-by-array collection=site.code_posts field="tags" %}
+{% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
