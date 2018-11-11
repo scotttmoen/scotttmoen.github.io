@@ -7,7 +7,7 @@ header:
 excerpt: "An Excel spreadsheet that calculates g force and RPM given radius. Helps with unknown rotates and bespoke systems."
 ---
 
-code posts
+code posts2
 
 <img src="{{ site.url }}{{site.baseurl }}/images/Excellogo.png" alt="Excel logo" width="50"/>
 
