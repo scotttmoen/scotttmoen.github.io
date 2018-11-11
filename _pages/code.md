@@ -7,17 +7,15 @@ header:
   overlay_image: "/images/header_image2.png"
 ---
 
-test7
+test8
 
-{% include group-by-array collection=site.posts field="tags" %}
+{% include group-by-array collection=site.codeposts field="tags" %}
 
 {% for tag in group_names %}
-  {% if tag == "code" %}
-    {% assign posts = group_items[forloop.index0] %}
-    <h2 id="{{ tag | slugify }}"
-     class="archive__subtitle"><i style="margin-left: 40px">Tag : {{tag }}</i></h2>
-    {% for post in posts %}
-        {% include archive-single.html %}
-    {% endfor %}
-  {% endif %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}"
+   class="archive__subtitle"><i style="margin-left: 40px">Tag : {{ tag }}</i></h2>
+  {% for post in codeposts %}
+    {% include archive-single.html %}
+  {% endfor %}
 {% endfor %}
