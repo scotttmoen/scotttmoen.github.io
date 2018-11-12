@@ -13,6 +13,7 @@ test8
 {% for post in site.posts %}
   {% if post.categories contains "code" %}
      {% assign my_array = my_array | push: post %}
+     {{ my_array | size }}
   {% endif %}
 {% endfor %}
 
