@@ -10,14 +10,13 @@ header:
 test10
 
 {% include group-by-array collection=site.posts field="tags" %}
-
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}"
-   class="archive__subtitle"><i style="margin-left: 40px">Tag : {{ tag }}</i></h2>
-  {% for post in posts %}
-    {% if post.category == 'code' %}
+{% if post.category == 'code' %}
+  {% for tag in group_names %}
+    {% assign posts = group_items[forloop.index0] %}
+    <h2 id="{{ tag | slugify }}"
+    class="archive__subtitle"><i style="margin-left: 40px">Tag : {{ tag }}</i></h2>
+    {% for post in posts %}
       {% include archive-single.html %}
-    {% endif %}
+    {% endfor %}
   {% endfor %}
-{% endfor %}
+{% endif %}
