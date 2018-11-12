@@ -16,7 +16,7 @@ test9
   <h2 id="{{ tag | slugify }}"
    class="archive__subtitle"><i style="margin-left: 40px">Tag : {{ tag }}</i></h2>
   {% for post in codeposts %}
-    {if post.category == "code"}
+    {% if post.category == "code" %}
       {% include archive-single.html %}
     {% endif %}
   {% endfor %}
