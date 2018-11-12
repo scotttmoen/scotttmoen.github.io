@@ -10,7 +10,7 @@ header:
 test18
 
 {% for post in site.posts%}
-  {% if site.category == "code" %}
+  {% if post.category == "code" %}
     {% include group-by-array collection=site.posts field="tags" %}
   {% endif %}
 {% endfor %}
