@@ -18,7 +18,7 @@ test8
 {% endfor %}
 
 
-{% include group-by-array collection=my_array field="tag" %}
+{% include group-by-array collection=my_array field="tags" %}
 {{ my_array | size }}
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
