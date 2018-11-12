@@ -7,11 +7,11 @@ header:
   overlay_image: "/images/header_image2.png"
 ---
 
-test17
+test18
 
 {% for post in site.posts%}
   {% if site.category == "code" %}
-    {% include group-by-array collection=site.posts field="tags" category="code" %}
+    {% include group-by-array collection=site.posts field="tags" %}
   {% endif %}
 {% endfor %}
 
