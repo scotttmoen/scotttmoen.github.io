@@ -2,6 +2,7 @@
 title: "Conjugation protocol with silica and capture antibody."
 date: 2018-10-31
 tags: [conjugation protocol, antibody, silica]
+categories: [code, excel]
 header:
   image: "images/header_image2.png"
 excerpt: "An Excel spreadsheet for conjugation of microspheres and antibodies. The conjugated particle is useful for diagnostics."

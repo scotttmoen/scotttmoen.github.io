@@ -2,6 +2,7 @@
 title: "Laser cut pattern: Sample rotator."
 date: 2018-10-31
 tags: [laser cutter, sample rotator]
+categories: [code, excel]
 header:
   image: "images/header_image2.png"
 excerpt: "Template for an ergonomic, inexpensive system that rotates microcentrifuge tubes. This can be used to mix biological and chemical samples."
