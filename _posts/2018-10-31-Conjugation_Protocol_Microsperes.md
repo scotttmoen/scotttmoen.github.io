@@ -2,7 +2,7 @@
 title: "Conjugation protocol with antibodies and microspheres."
 date: 2018-10-31
 tags: [conjugation protocol, antibody, microspheres]
-categories: [code, excel]
+categories: science, excel]
 header:
   image: "images/header_image2.png"
 excerpt: "An Excel spreadsheet for conjugation of microspheres and antibodies. The conjugate is useful for diagnostics."
