@@ -11,7 +11,7 @@ test8
 
 {% assign my_array = "" | split: ',' %}
 {% for post in site.posts %}
-  {% if post.categories contains "code" %}
+  {% if post.categories contains "science" %}
      {% assign my_array = my_array | push: post %}
      {{ my_array | size }}
   {% endif %}
