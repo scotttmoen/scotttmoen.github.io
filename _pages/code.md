@@ -19,7 +19,7 @@ test8
 
 
 {% include group-by-array collection=my_array field="tag" %}
-
+{{ my_array | size }}
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
   <h2 id="{{ tag | slugify }}"
