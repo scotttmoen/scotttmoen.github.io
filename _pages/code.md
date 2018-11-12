@@ -7,9 +7,9 @@ header:
   overlay_image: "/images/header_image2.png"
 ---
 
-test2
+test3
 
-{% include group-by-array collection=site.posts | where: "category", "code", | field="tags" %}
+{% include group-by-array collection=site.posts | where: "categories", "code", | field="tags" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
