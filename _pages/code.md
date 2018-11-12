@@ -7,9 +7,12 @@ header:
   overlay_image: "/images/header_image2.png"
 ---
 
-test15
+test16
+{% for post in site.posts%}
+  {% if site.category == "code" %}
+    {% include group-by-array collection=site.posts field="tags" category="code" %}
+  {% endif %}
 
-{% include group-by-array collection=site.posts field="tags" category="code" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
