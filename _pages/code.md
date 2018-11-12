@@ -7,7 +7,7 @@ header:
   overlay_image: "/images/header_image2.png"
 ---
 
-test5
+test6
 {% assign my_array = "" | split: ',' %}
 {% for post in site.posts %}
   {% if post.categories contains "code" %}

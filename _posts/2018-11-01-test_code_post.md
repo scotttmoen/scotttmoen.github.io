@@ -2,7 +2,7 @@
 title: "An Excel Spreadsheet for Calculating g Force and RPM."
 date: 2018-10-31
 tags: [code, g force]
-categories: code
+categories: [code, excel]
 header:
   image: "images/header_image2.png"
 excerpt: "An Excel spreadsheet that calculates g force and RPM given radius. Helps with unknown rotates and bespoke systems."
