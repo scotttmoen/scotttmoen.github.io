@@ -9,7 +9,7 @@ header:
 
 test5
 {% assign my_array = "" | split: ',' %}
-{% for post in site.post %}
+{% for post in site.posts %}
   {% if post.categories contains "code" %}
      <!-- Push post into array -->
      {% assign my_array = my_array | push: post %}
