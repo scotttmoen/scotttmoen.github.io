@@ -8,13 +8,16 @@ header:
 ---
 
 test5
-{% for post in site.posts %}
-  {% if post.categories contains 'code' %}
-    {% assign codePosts = codePosts | push "post"%}
+{% assign my_array = "" | split: ',' %}
+{% for post in site.post %}
+  {% if post.categories contains "code" %}
+     <!-- Push post into array -->
+     {% assign my_array = my_array | push: post %}
   {% endif %}
 {% endfor %}
 
-{% include group-by-array collection=site.posts field="tags" %}
+
+{% include group-by-array collection=my_array field="tag" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
