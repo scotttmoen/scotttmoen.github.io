@@ -9,7 +9,7 @@ header:
 
 test2
 
-{% include group-by-array collection=site.posts | where: "category", "code" | field="tags" %}
+{% include group-by-array collection=site.posts | where: "category", "code", | field="tags" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
