@@ -13,13 +13,11 @@ test8
 {% for post in site.posts %}
   {% if post.categories contains "code" %}
      {% assign my_array = my_array | push: post %}
-     {{ my_array | size }}
   {% endif %}
 {% endfor %}
 
 
 {% include group-by-array collection=my_array field="tags" %}
-{{ my_array | size }}
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
   <h2 id="{{ tag | slugify }}"
