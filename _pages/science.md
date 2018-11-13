@@ -6,9 +6,16 @@ author_profile: true
 header:
   overlay_image: "images/header_image7.png"
 ---
+{% assign my_array = "" | split: ',' %}
+{% for post in site.posts %}
+  {% if post.categories contains "science" %}
+     {% assign my_array = my_array | push: post %}
+  {% endif %}
+{% endfor %}
 
 
-{% include group-by-array collection=site.posts field="tags" %}
+{% include group-by-array collection=my_array
+ field="tags" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
