@@ -5,7 +5,7 @@ tags: [lab tool, arduino]
 categories: [code, arduino]
 header:
   image: "images/header_image2.png"
-excerpt: "This is an interface for controlling a DC motor"
+excerpt: "This is an interface for controlling a DC motor."
 ---
 <img src="{{ site.url }}{{site.baseurl }}/images/ArduinoCommunityLogo.png" alt=" ArduinoCommunityLogo" width="50"/>
 
