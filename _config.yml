@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "scotttmoen"
+      url: "https://github.com/scotttmoen"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -152,7 +152,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "scott-moen-phd" #may need to add number from appid
+      url: "https://www.linkedin.com/in/scotttmoen"
 
 
 
