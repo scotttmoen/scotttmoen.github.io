@@ -10,7 +10,7 @@ excerpt: "Code to develop optimization template."
 <img src="{{ site.url }}{{site.baseurl }}/images/tensorflow.png" alt=" TensorFlowLogo" width="50"/>
 
 
-#This is going to be the basic model that I'm going to work with for the next few days. I want to setup a template for automating hyperparameters.
+This is going to be the basic model that I'm going to work with for the next few days. I want to setup a template for automating hyperparameters.
 
 
 ```python

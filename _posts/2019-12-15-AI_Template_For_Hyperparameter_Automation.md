@@ -1,4 +1,14 @@
-#Using the previous basic model, I'm going to setup a template for automating hyperparameters. In this instance the complexity of the model isn't as important as developing the template.
+---
+title: "A generalizable hyperparameter tuning template."
+date: 2019-12-03
+tags: [AI, machine learning, tensorflow, python]
+categories: [code, machine learning]
+header:
+  image: "images/header_image2.png"
+excerpt: "AI hyperparameter optimization template."
+---
+<img src="{{ site.url }}{{site.baseurl }}/images/tensorflow.png" alt=" TensorFlowLogo" width="50"/>
+Using the previous basic model, I'm going to setup a template for automating hyperparameters. In this instance the complexity of the model isn't as important as developing the template.
 
 
 ```python
@@ -13,7 +23,7 @@ seed(1)
 tf.random.set_seed(1234)
 ```
 
-##One of the incorporations will be a new activation function we need to create.
+One of the incorporations will be a new activation function we need to create.
 
 
 ```python
@@ -22,7 +32,7 @@ def swish(x, beta = 1):
     return (x * sigmoid(beta * x))
 ```
 
-##We then add the newly created activation to the existing activation selections.
+We then add the newly created activation to the existing activation selections.
 
 
 ```python
@@ -31,7 +41,7 @@ from tensorflow.keras.layers import Activation
 get_custom_objects().update({'swish': Activation(swish)})
 ```
 
-##Next in order to see the results of our hyperparameter selections, we'd like to see the accuracy of each epoch. Myy solution is to create a callback that only returns the epoch, and corresponding parameters, of the highest accuracy epoch.
+Next in order to see the results of our hyperparameter selections, we'd like to see the accuracy of each epoch. Myy solution is to create a callback that only returns the epoch, and corresponding parameters, of the highest accuracy epoch.
 
 
 ```python
@@ -67,7 +77,7 @@ training_images  = training_images / 255.0
 test_images = test_images / 255.0
 ```
 
-##Here I've created a dictionary for items I want to include for testing: epochs,activation. I like using the dictionary because I think it helps readibility.
+Here I've created a dictionary for items I want to include for testing: epochs,activation. I like using the dictionary because I think it helps readibility.
 
 
 ```python
@@ -80,7 +90,7 @@ test_parameters = ({'epochs':1, 'activation':'swish'},
 
 ```
 
-##Then we loop through our model, each time introducing our current dictionary values and appending the results to our "test parameters" dictionary for later analysis.
+Then we loop through our model, each time introducing our current dictionary values and appending the results to our "test parameters" dictionary for later analysis.
 
 
 ```python
@@ -107,4 +117,4 @@ print(test_parameters)
 
 ({'epochs': 0, 'activation': 'swish', 'accuracy': 0.82645}, {'epochs': 4, 'activation': 'swish', 'accuracy': 0.8958167}, {'epochs': 9, 'activation': 'swish', 'accuracy': 0.9163667}, {'epochs': 0, 'activation': 'relu', 'accuracy': 0.82301664}, {'epochs': 4, 'activation': 'relu', 'accuracy': 0.891}, {'epochs': 9, 'activation': 'relu', 'accuracy': 0.90995})
 
-###Note:Epochs are indices, hence 0,4,9 vs 1,5,10
+Note:Epochs are indices, hence 0,4,9 vs 1,5,10
