@@ -8,7 +8,7 @@ header:
 excerpt: "AI template with TensorBoard."
 ---
 <img src="{{ site.url }}{{site.baseurl }}/images/tensorflow.png" alt=" TensorFlowLogo" width="50"/>
-#In the previous exercise, I created a template for automating hyperparameters. For this exercise I would like to expand on some tools to understand our analysis.
+In the previous exercise, I created a template for automating hyperparameters. For this exercise I would like to expand on some tools to understand our analysis.
 
 
 ```python
@@ -24,7 +24,7 @@ seed(1)
 tf.random.set_seed(1234)
 ```
 
-#First thing we have to do use some so-called "magic" to activate TensorFlow's visualization tool, TensorBoard. This is done be the prefacing the command with "%". We also need to clear the logs so we don't encounter any run-to-run confusion.
+First thing we have to do use some so-called "magic" to activate TensorFlow's visualization tool, TensorBoard. This is done be the prefacing the command with "%". We also need to clear the logs so we don't encounter any run-to-run confusion.
 
 
 ```python
@@ -90,7 +90,7 @@ test_parameters = ({'epochs':1, 'activation':'swish'},
 
 ```
 
-#In the following code we've started a log directory that saves our results with time/date. Also, we've created a tensorflow callback to connect the data and added this callback to our existing one.
+In the following code we've started a log directory that saves our results with time/date. Also, we've created a tensorflow callback to connect the data and added this callback to our existing one.
 
 
 ```python
@@ -124,7 +124,7 @@ print(test_parameters)
     ({'epochs': 0, 'activation': 'swish', 'accuracy': 0.82645}, {'epochs': 4, 'activation': 'swish', 'accuracy': 0.8958167}, {'epochs': 9, 'activation': 'swish', 'accuracy': 0.9163833}, {'epochs': 0, 'activation': 'relu', 'accuracy': 0.82301664}, {'epochs': 4, 'activation': 'relu', 'accuracy': 0.891}, {'epochs': 9, 'activation': 'relu', 'accuracy': 0.9091833})
 
 
-#And now for the magic...the following command opens tensorboard and tells it to use the log data we created.
+And now for the magic...the following command opens tensorboard and tells it to use the log data we created.
 
 
 ```python
