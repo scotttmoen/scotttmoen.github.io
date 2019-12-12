@@ -205,5 +205,5 @@ plt.show()
 ```
 
 
-![png](output_22_0.png)
+<img src="{{ site.url }}{{site.baseurl }}/images/grid.png" alt=" Grid_image" width="200"/>
 
